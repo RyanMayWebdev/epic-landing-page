@@ -1,0 +1,313 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden] {
+    display: none;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+q {
+    quotes: \201C \201D \2018 \2019;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -.5em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+button,
+html input[type=button],
+/* 1 */
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body,
+figure {
+    margin: 0;
+}
+
+legend,
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 125%;
+}
+
+/* ====================
+TYPOGRAPHY
+======================= */
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    font-size: 4rem;
+    font-style: italic;
+    letter-spacing: -0.4rem;
+    margin: 0.5rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+h2,h3 {
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+a {
+    color: #000;
+    margin: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* ====================
+MAIN STYLING
+======================= */
+
+body {
+    align-items: center;
+    background: url(./mountain-6191719.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-y: scroll;
+
+}
+
+main {
+    text-align: center;
+    width: 90%;
+}
+
+.appTile {
+    align-items: center;
+    background: linear-gradient(45deg, #ffffff5e, #ffffff54, #ffffff5e);
+    border: 1px solid #a0a0a0;
+    border-radius: 2rem;
+    box-shadow: 0 0.3rem #a0a0a0c5;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.button {
+    align-items: center;
+    background-color: cornflowerblue;
+    border-radius: 1rem;
+    box-shadow: 0 0.1rem #636363;
+    color: #fff;
+    display: flex;
+    padding: 0 0.5rem;
+    width: min-content;
+}
+
+.config {
+    padding: 0.5rem 1rem;
+}
+
+.downloadButton p {
+    margin: 0;
+    margin-top: 0.3rem;
+}
+
+.fab {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+
+.wrapper {
+    align-items: center;
+    background: linear-gradient(45deg, #3459ff5e, #ffffff54, #3459ff5e);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: space-evenly;
+    margin: 2rem;
+    max-width: 1440px;
+    padding: 2rem 0;
+    width: 90%;
+}
+
+
+@media (max-width: 480px) {
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
